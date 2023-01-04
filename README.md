@@ -107,10 +107,19 @@ Feature engineering steps:
 ## Visualization
 
 
-1st dashboard:
+Saudi dashboards:
+
+<img width="583" alt="Screenshot 2023-01-04 051558" src="https://user-images.githubusercontent.com/53378171/210472536-0329cff8-e095-4f35-afd2-e1a82c1ec109.png">
+
+<img width="583" alt="Screenshot 2023-01-04 051617" src="https://user-images.githubusercontent.com/53378171/210472532-9d4b31aa-bceb-49da-abee-0e7618f6e816.png">
 
 
-2nd dashboard:
+Egypt dashboards:
+
+<img width="586" alt="Screenshot 2023-01-04 051640" src="https://user-images.githubusercontent.com/53378171/210472523-7adab211-a823-463f-8609-7f48b5c4c339.png">
+
+
+<img width="583" alt="Screenshot 2023-01-04 051704" src="https://user-images.githubusercontent.com/53378171/210472514-81d54d35-269e-4f09-bb95-ad9b3e5ef099.png">
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
