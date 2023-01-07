@@ -33,15 +33,15 @@ This is the overview of the project's structure and files for easier navigation.
 
 ```
 ├── README.md
-├── dashboard.pdf
+├── Deserts_Dashboard.pdf
 ├── presentation.pdf
 ├── Notebooks
-│   ├── preprocessing.ipynb 
-|   ├── EDA.ipynb
-│   └── ML.ipynb
-└── Datasets
-    ├── 1st_DS.csv (output of the pre-preprocessing notebook) 
-    └── 2nd_DS.csv (used for the EDA, Dashboard, and Machine Learning models)
+│   ├── CapstoneProject2_Preprocessing_Notebook.ipynb
+|   ├── CapstoneProject2_EDA_Notebook.zip
+│   └── CapstoneProject2_ML_Notebook.ipynb
+└── Datasets (too big to be uploaded)
+    ├── High_School_Public_Results_2022_EG_both_attempts.csv (original dataset) 
+    └── capstone_project2_preprocessed_eng.csv (output of the pre-preprocessing notebook: used for the EDA, Dashboard, and Machine Learning models)
 ```
 
 
@@ -93,15 +93,21 @@ At the beginning of our analysis, we raised some questions that we intend to ans
 
 ## Preprocessing Overview 
 
-Preprocessing is the essence of this project. In this README file, we will be listing the overview of each step. However, for a more detailed description, visit our [Medium Blog Post]
+Preprocessing is the essence of this project. In this README file, we will be listing the overview of each step. However, for a more detailed description, visit our [Medium Blog Post](https://medium.com/@RghdE/educational-landscape-project-a7d675e50c53)
+
+Before the Preprocessing:
+
+![image](https://user-images.githubusercontent.com/53378171/211162627-f66a5032-28d7-4e73-89f3-0e75f2e23786.png)
+
+After the Preprocessing:
+
+![image](https://user-images.githubusercontent.com/53378171/211162644-272acfd3-101b-44b9-b63c-e032399879b8.png)
 
 
-Preprocessing steps:
+General Preprocessing steps:
 
 ![image](https://user-images.githubusercontent.com/53378171/210471797-13d3ea08-9d78-43fe-8151-b9212a996044.png)
 
-
-Feature engineering steps:
 
 
 ## Visualization
@@ -109,17 +115,16 @@ Feature engineering steps:
 
 Saudi dashboards:
 
-<img width="583" alt="Screenshot 2023-01-04 051558" src="https://user-images.githubusercontent.com/53378171/210472536-0329cff8-e095-4f35-afd2-e1a82c1ec109.png">
+<img width="575" alt="Screenshot 2023-01-04 051558" src="https://user-images.githubusercontent.com/53378171/211162744-b4d7a8c4-36a4-49c4-ba1a-74ad7f96e233.png">
 
-<img width="583" alt="Screenshot 2023-01-04 051617" src="https://user-images.githubusercontent.com/53378171/210472532-9d4b31aa-bceb-49da-abee-0e7618f6e816.png">
+<img width="573" alt="Screenshot 2023-01-04 051617" src="https://user-images.githubusercontent.com/53378171/211162753-16901696-a8a4-4ccc-b6f0-08817ed2dc8c.png">
 
 
 Egypt dashboards:
 
-<img width="586" alt="Screenshot 2023-01-04 051640" src="https://user-images.githubusercontent.com/53378171/210472523-7adab211-a823-463f-8609-7f48b5c4c339.png">
+<img width="572" alt="Screenshot 2023-01-04 051640" src="https://user-images.githubusercontent.com/53378171/211162761-04631509-bbad-4df9-b126-9377713bdef2.png">
 
-
-<img width="583" alt="Screenshot 2023-01-04 051704" src="https://user-images.githubusercontent.com/53378171/210472514-81d54d35-269e-4f09-bb95-ad9b3e5ef099.png">
+<img width="573" alt="Screenshot 2023-01-04 051704" src="https://user-images.githubusercontent.com/53378171/211162765-fad287ac-0e9e-42b5-8efe-4cd1bdc5b433.png">
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -128,12 +133,12 @@ Egypt dashboards:
 
 All of these models were evaluted in order to choose the best one of them.
 
+![image](https://user-images.githubusercontent.com/53378171/211162876-c2377bd0-18d6-4150-a541-7f3a1a7af169.png)
 
 
-Model results:
+For the model selection, gradient Boost is the best model since it has the highest accuracy, and this is the result after the optimization.
 
-
-Baseline Distribution:
+![image](https://user-images.githubusercontent.com/53378171/211162891-7e6b2ca5-e210-4535-b3d9-c8623a6ce5a2.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
