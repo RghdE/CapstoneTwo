@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-#  Educational Landscape Project
+# :books: Educational Landscape Project
 As part of the Big Data and AI Engineering Onsite Bootcamp, we are asked to deliver a solution for the MENA market that can be solved by Big Data and AI tools. The project has to have an impact and deliver a solution for a real-world problem using MENA datasets. 
 
 
