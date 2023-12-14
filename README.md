@@ -76,6 +76,8 @@ The goal of this project is to forecast if a student can enroll in one of the pu
 ## Dataset Overview
 This dataset provides Egyptian student’s public results information. Including the student’s unique desk identifier number during the exam (this is unique for all students across Egypt), their gender and school name, the administration and the city their school belongs to, and how many test attempts they had. Lastly, for each attempt, it lists all the courses they can take depending on their branch and what score they have achieved for each course. Most of the courses will be calculated in the total score except for three courses; religion, national education, and economics Statistics. The dataset consists of 45 features and 683k records, which were taken for one year only; 2022. 
 
+[Dataset link](https://www.kaggle.com/datasets/81b56c1ff0ae2104ee9ac6af5b0316792232d93acec695e30c5382a0f8650e05?select=High_School_Public_Results_2022_EG_both_attempts.csv)
+
 However, the problem has challenges because all the helpful features to our target can be found in the grades which can't be taken because it will create a data leakge in our model. In order to create a solid prediction, we need to extract more features from the existing columns, i.e. the school name.
 
 
